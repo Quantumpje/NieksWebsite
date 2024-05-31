@@ -1,0 +1,110 @@
+.row {
+  display: flex;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, #5699f0, #0c3fa7);
+  padding: 20px;
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px;
+  margin: auto;
+  width: 75%;
+  color: black;
+  font-size: 150%;
+  text-align: center;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, #5699f0, #0c3fa7);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, #699bdd, #235dd1);
+  margin-top: 20px;
+}
+
+.side {
+  flex: 30%;
+  overflow: hidden;
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, #5699f0, #0c3fa7);
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.main {
+  flex: 70%;
+  overflow: hidden;
+  font-size: 50%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom right, #5699f0, #0c3fa7);
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.header a {
+  margin-bottom: 3px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom right, #2d67b4, #094490);
+  border-radius: 10px;
+  font-size: 50%;
+}
+
+.side a {
+  color: blue;
+  text-decoration: none;
+}
+
+img {
+  padding: 10px;
+  background-image: linear-gradient(to bottom right, #699bdd, #0c3fa7);
+  border-radius: 15px;
+}
+
+body {
+  background-color: #4c6ba9;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header a:hover {
+  color: #85ceff;
+  background-image: linear-gradient(to bottom right, #1853a0, #032d63);
+  padding: 15px;
+}
+
+.side a:hover {
+  color: #85ceff;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .side {
+    margin-right: auto;
+  }
+}
