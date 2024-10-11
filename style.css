@@ -48,7 +48,7 @@
 .main {
     flex: 70%;
     overflow: hidden;
-    font-size: 200%;
+    font-size: 30px;
     padding: 20px;
     margin: auto;
     text-align: center;
