@@ -1,0 +1,38 @@
+.Title {
+    text-align: center;
+    font-family: 'Out AEG LCD', sans-serif;
+    font-size: 100px;
+    color:  darkred;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    color: gray;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+    display: inline;
+    float: left;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+h2 {
+    display: inline;
+}
+
+body {
+    background-color: lightcoral;
+}
