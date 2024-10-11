@@ -66,6 +66,7 @@
     background-image: linear-gradient(to bottom right, #2d67b4, #094490);
     border-radius: 10px;
     font-size: 50%;
+    white-space: nowrap;
 }
 
 .side a {
