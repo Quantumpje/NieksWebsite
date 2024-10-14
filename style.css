@@ -75,7 +75,7 @@
 }
 
 .side a {
-    color: blue;
+    color: #85ceff;
     text-decoration: none;
 }
 
@@ -93,11 +93,11 @@ body {
 .header a:hover {
     color: #85ceff;
     background-image: linear-gradient(to bottom right, #1853a0, #032d63);
-    padding: 15px;
+    padding: 12px;
 }
 
 .side a:hover {
-    color: #85ceff;
+    color: lightgray;
 }
 
 html {
@@ -105,7 +105,7 @@ html {
     width: 100%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .row {
         flex-direction: column;
     }
